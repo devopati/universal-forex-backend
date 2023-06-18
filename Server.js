@@ -33,6 +33,7 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5000",
       "https://richbrains-site.vercel.app",
+      "https://universal-forex-website.vercel.app/",
     ],
     credentials: true,
   })
