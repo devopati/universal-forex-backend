@@ -7,7 +7,7 @@
   "scripts": {
     "Server": "nodemon Server.js --ignore client",
     "client": "cd .. && cd frontend && npm run dev",
-    "start": "concurrently --kill-others-on-fail \"npm run Server\" \"npm run client\""
+    "start": "node Server.js"
   },
   "author": "",
   "license": "ISC",
